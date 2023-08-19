@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'PT Sans', sans-serif;
+}
+
+.creep, .home, 
+.work-projects, 
+.education{
+    display: flex;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; 
+}
+
+.naspi-food {
+    display: relative;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; 
+
+}
+
+.recipenomics{
+    display: relative;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; 
+
+}
+
+.souvenir-shop {
+    display: relative;
+    height: 91vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem; 
+
+}
+
+.creep{
+    background-image: url("./images/img-10.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #6c6363;
+    font-size: 100px;
+    
+}
+
+
+.home {
+    background-image: url("./images/img-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.work-projects {
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .naspi-food {
+    background-image: url('./images/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #a05b00;
+    font-size: 100px;
+  }
+  
+  .recipenomics {
+    background-image: url('./images/pic-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #0c0c0c;
+    font-size: 100px;
+  }
+  
+
+  
+  .souvenir-shop {
+    background-image: url('./images/img-6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ff700a;
+    font-size: 100px;
+  }
+  
+  .education {
+    background-image: url('./images/img-5.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ff6a00;
+    font-size: 100px;
+  }
+
+  .logo-container {
+    position: relative;
+    width: 100%; 
+    height: 30vh;
+    background-color: burlywood;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
